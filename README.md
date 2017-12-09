@@ -81,20 +81,3 @@ This section is for reproducing Fig3.a results
    `python generate_ROCdata.py`
 
    `./roc.sh`
-
-   ​
-
-   ​
-
-   ​
-
-   ​
-
-   ​
-
-   ​
-
-   ​
-
-   ​
-
