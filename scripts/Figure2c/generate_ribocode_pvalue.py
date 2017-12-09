@@ -3,24 +3,22 @@
 __author__ = 'Zhengtao Xiao'
 """
 read the p_site_all_tracks_ccds file and do 3-periodicity test using RiboCode
-usage: python 
+usage: python generate_ribocode_pvalue.py 
 """
 ## Note: change the path and file name 
 RiboCode_library_path="/data1/Programs/anaconda2/lib/python2.7/site-packages/RiboCode/"
 #files from RiboTaper
-psite_file = "../data_tracks/P_sites_all_tracks_ccds"
-center_file = "../data_tracks/Centered_RNA_tracks_ccds"
-frame_file = "/workdata/Share_RPFmethod/sharedFiles/annotation/gencodev19/ribotaper_annot/frames_ccds"
+psite_file = "data/ribotaper_data/P_sites_all_tracks_ccds"
+center_file = "data/ribotaper_data/Centered_RNA_tracks_ccds"
+frame_file = "data/ribotaper_data/frames_ccds"
 #gtf file
-gtf_file = "/workdata/Share_RPFmethod/sharedFiles/annotation/gencodev19/gencode.v19.annotation.gtf"
-
+gtf_file = "data/gencode.v19.annotation.gtf"
 
 import sys
 import numpy as np
 sys.path.append(RiboCode_library_path)
 from test_func import wilcoxon_greater,combine_pvals
 from collections import namedtuple
-from detectORF import cal_orfscore
 
 def read_frames(filename):
 	"""
@@ -82,7 +80,7 @@ center_dict = read_track(center_file)
 frame_dict = read_frames(frame_file)
 result_dict = {}
 
-fout = open("exon_result.txt","w")
+fout = open("ribocode_result.txt","w")
 fout.write("ID\tannotated_frame\tpredict_frame\tmy_ribo\tmy_rna\tribo_cov\tmRNA_cov\n")
 for name,psites in psite_dict.iteritems():
 	psites_array = psites.toArray()

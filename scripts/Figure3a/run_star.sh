@@ -1,0 +1,2 @@
+STAR --runThreadN 8 --runMode genomeGenerate --genomeFastaFiles hg19_genome.fa --sjdbGTFfile simulated.gtf --genomeDir staridx
+STAR --outFilterType BySJout --runThreadN 8 --outFilterMismatchNmax 2 --genomeDir staridx --readFilesIn simulated.fq --outFileNamePrefix simulated --outSAMtype BAM SortedByCoordinate --quantMode TranscriptomeSAM GeneCounts --outFilterMultimapNmax 1 --outFilterMatchNmin 16 --alignEndsType EndToEnd --outSAMattributes All
