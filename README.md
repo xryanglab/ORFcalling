@@ -91,6 +91,7 @@ This section is for reproducing Fig3.a results. We randomly select 1000 annotate
 
    [Zhengtao Xiao](xzt41@126.com)
 
-   [Xudong Xing]()
+   [Xudong Xing](xudonxing_bioinf@sina.com)
 
-   [Rongyao Huang]()
+   [Rongyao Huang](THUhry12@163.com)
+
