@@ -97,8 +97,9 @@ This section is for reproducing Fig3.a results. We randomly select 1000 annotate
 
    If you have any question about RiboCode and this study, please feel free to contact:
 
-   [Zhengtao Xiao](xzt41@126.com)
+   xzt41[at]126.com
 
-   [Xudong Xing](xudonxing_bioinf@sina.com)
+   xudonxing_bioinf[at]sina.com
 
-   [Rongyao Huang](THUhry12@163.com)
+   THUhry12[at]163.com
+

@@ -7,7 +7,7 @@ ribocode_path = "/lib/python2.7/site-packages/RiboCode/"
 sampling number of protein coding genes from counts file (counts number larger than specific number)
 """
 PCG_SAMPLE_NUM = 1000
-MIN_COUNTS = 10 # for selecting the genes 
+MIN_COUNTS = 5 # for selecting the genes 
 accept_length = set([26,27,28,29]) # P-sites used for ORF calling
 gtfFile = "gencode.v19.annotation.gtf"
 bamFile1 = "rpf_Aligned.sortedByCoord.out.bam"
