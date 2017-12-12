@@ -8,7 +8,7 @@ usage: python generate_ROCdata.py
 ###Note: please change the path of following file
 RiboCode_library_path="/Library/Python/2.7/site-packages/RiboCode/"
 ribocode_annot_dir = "ribocode_annot"
-selected_gtf = "selected_genes.gtf"
+selected_gtf = "selected.gtf"
 
 #ribocode
 ribocode_result_true = "RiboCode_results/results_true/RiboCode.txt"
