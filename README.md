@@ -92,15 +92,15 @@ This section is for reproducing Fig3.a results. We randomly select 1000 annotate
 
    - ORFrate
 
-     Run the "ORFrate_run.sh" script.
+     Run the "ORF-RATER/run_ORF-RATER.sh" script.
 
    - RiboORF
 
-     Run the "riboORF.sh" script. We also provide a "generate_CDS_ORF_genePred.py" script to generate the *genePred* file for riboORF. 
+     Run the "RiboORF/run_RiboORF.sh" script. We also provide a "generate_CDS_ORF_genePred.py" script to generate the *genePred* file for riboORF. 
 
    - RiboCode
 
-     Run the "RiboCode/run_ribocode.sh" script.
+     Run the "RiboCode/run_RiboCode.sh" script.
 
    Note: Users need to change the path of input and output files in scripts. Each method will generate two set of results in "result_true" folder (using original alignment files as the input data) and "result_simulation"  folder (using simulation alignment files as the input data), which are available in "simulation_data" folder at google drive.
 
