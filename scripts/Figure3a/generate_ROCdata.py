@@ -169,7 +169,7 @@ using the intersection gene and transcript of ribocode,rpbp and riboORF
 """
 intersect_ids = set(ribocode_dict.keys()).intersection(set(rpbp_dict.keys())).intersection(set(riboORF_dict.keys()))
 
-all = defaultdict(lambda:["None"]*4)
+all = defaultdict(lambda:["None\tNone"]*4)
 with open("ribocode_roc.txt","w") as ribocode_f, open("rpbp_roc.txt","w") as rpbp_f, open("orfrate_roc.txt","w") as orfrate_f, open("riboORF_roc.txt","w") as riboORF_f:
     for k in intersect_ids:
         all[k][0] = "\t".join(ribocode_dict[k])

@@ -3,7 +3,7 @@ This repository provides scripts to reproduce parts of results from RiboCode pap
 
 ## Note
 
-This document gives a general overview of creating simulation dataset, the procedure to generate ROC data and the scripts to run these method. Since the methodology of RiboTaper was based on testing of each annotated exon, and it's performance was originally bechmarked at the exon level, here we also compare RiboCode, RiboTaper, and ORFscore at the exon level. In next section, we compare RiboCode, RpBp, riboORF and ORF-RATER at gene-level because these method work on genes or transcripts. The simulation dataset were generated from a published data in [HEK293](https://www.nature.com/articles/nmeth.3208).
+This document gives a general overview of creating simulation dataset, the procedure to generate ROC data and the scripts to run these methods. Since the methodology of RiboTaper was based on testing of each annotated exon, and it's performance was originally bechmarked at the exon level, here we also compare RiboCode, RiboTaper, and ORFscore at the exon level. In next section, we compare RiboCode, RpBp, riboORF and ORF-RATER at gene-level because these method work on genes or transcripts. The simulation dataset were generated from a published data in [HEK293](https://www.nature.com/articles/nmeth.3208).
 
 The detailed step-by-step instruction of the data preprocessing and usage of these methods can also be found the following pages:
 
